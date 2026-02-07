@@ -34,7 +34,7 @@ nav a:hover {
   margin-top: 50px; /* To avoid overlapping the fixed nav bar */
   flex-grow: 1;
 }
-h1 { font-weight: normal; font-size: calc(20px + 2vw); }
+h1 { color: #CC6633; font-weight: normal; font-size: calc(20px + 2vw); }
 h2 { font-weight: normal; font-size: calc(16px + 1vw); }
 h3 { font-weight: normal; font-size: calc(12px + 1vw); }
 .main-content {
