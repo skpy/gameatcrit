@@ -1,65 +1,44 @@
-﻿body {
+﻿/*
+Rust #993300
+Burnt Orange #CC6633
+Earth Brown #996633
+Off-Black #333333
+*/
+body {
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #999999;
-  color: white;
+  color: #333333;
   display: flex;
   flex-direction: column;
 }
-header {
-  background-color: #999999;
-  color: white;
-  padding: 10px;
-  text-align: center;
-}
 nav {
-  background-color: #999999;
+  background-color: #333333;
   display: flex;
   justify-content: space-around;
-  padding: 10px;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000;
 }
 nav a {
-  color: white;
+  color: #CC6633;
   text-decoration: none;
-  padding: 5px 10px;
-  background-color: #333333;
-  border-radius: 5px;
   font-size: 2vw;
 }
 nav a:hover {
-  color: #333333;
-  background-color: #ff3300;
+  color: #993300;
 }
 .container {
   display: flex;
   margin-top: 50px; /* To avoid overlapping the fixed nav bar */
   flex-grow: 1;
 }
-h1 { font-weight: normal; color: #9900ff; font-size: calc(20px + 2vw); }
-h2 { font-weight: normal; color: #9900ff; font-size: calc(16px + 1vw); }
-h3 { font-weight: normal; color: #9900ff; font-size: calc(12px + 1vw); }
-.sidebar {
-  background-color: #cccccc;
-  background-image: url("cthru-circuits.png"); 
-  background-position: center;
-  background-repeat: repeat;
-  color: #333333;
-  flex: 1;
-  min-width: 150px;
-  max-width: 300px;
-  padding-top: 5px;
-  padding-left: 10px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-}
+h1 { font-weight: normal; font-size: calc(20px + 2vw); }
+h2 { font-weight: normal; font-size: calc(16px + 1vw); }
+h3 { font-weight: normal; font-size: calc(12px + 1vw); }
 .main-content {
   flex: 3;
-  background: linear-gradient(#ffffff, #99cccc);
   padding-top: 60px;
   padding-left: 5%;
   padding-right: 5%;
@@ -67,6 +46,10 @@ h3 { font-weight: normal; color: #9900ff; font-size: calc(12px + 1vw); }
   text-align: center; /* Center the content */
   position: relative;
 }
+.rust { color: #993300; }
+.orange { color: #CC6633; }
+.earth { color: #996633; }
+.offblack { color: #333333; }
 .main-content img {
   display: block;
   margin: 0 auto 20px; /* Center the image and add bottom spacing */
@@ -80,8 +63,8 @@ h3 { font-weight: normal; color: #9900ff; font-size: calc(12px + 1vw); }
   color: #333333;
 }
 footer {
-  background-color: #669999;
+  background-color: #CC6633;
   color: #333333;
   text-align: center;
-  padding: 10px;
+  padding: 2px;
 }
