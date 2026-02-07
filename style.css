@@ -46,10 +46,7 @@ h3 { font-weight: normal; font-size: calc(12px + 1vw); }
   text-align: center; /* Center the content */
   position: relative;
 }
-.rust { color: #993300; }
 .orange { color: #CC6633; }
-.earth { color: #996633; }
-.offblack { color: #333333; }
 .main-content img {
   display: block;
   margin: 0 auto 20px; /* Center the image and add bottom spacing */
@@ -61,6 +58,9 @@ h3 { font-weight: normal; font-size: calc(12px + 1vw); }
   font-size: calc(10px + 1vw);
   text-align:left; 
   color: #333333;
+}
+.main-content a {
+  color: #CC6633;
 }
 footer {
   background-color: #CC6633;
