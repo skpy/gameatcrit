@@ -90,7 +90,6 @@ nav {
 }
 .container {
   display: flex;
-  margin-top: 50px; /* To avoid overlapping the fixed nav bar */
   flex-grow: 1;
 }
 h1 { color: #CC6633; font-weight: normal; font-size: 35px; }
@@ -98,7 +97,6 @@ h2 { font-weight: normal; font-size: 30px; }
 h3 { font-weight: normal; font-size: 25px; }
 .main-content {
   flex: 3;
-  padding-top: 60px;
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 20px;
